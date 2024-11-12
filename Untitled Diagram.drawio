@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2769" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1636" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="150" y="1090" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nPB6wgJAnetRJ66jai_f-0" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-30" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="-780" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nPB6wgJAnetRJ66jai_f-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nPB6wgJAnetRJ66jai_f-1" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +78,24 @@
         </mxCell>
         <mxCell id="nPB6wgJAnetRJ66jai_f-42" value="Check inventory of item if available?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="250" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-47" value="Player stat" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-660" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-49" value="Player action" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-50" value="Update player stat" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-660" y="320" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-51" value="Finish / Survived" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-660" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-52" value="Perished?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-660" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nPB6wgJAnetRJ66jai_f-53" value="Finish / Failed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-520" y="460" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
